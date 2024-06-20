@@ -42,14 +42,14 @@ export const removeFavorite = (articleUrl) => {
 };
 
 const API_KEY = "c6d3471a1f854e57865c8f2109d9e2b3";
-const NEWS_API_URL = "https://newsapi.org/v2/top-headlines";
+const NEWS_API_URL = "http://newsapi.org/v2/top-headlines";
 
 const urls = [
-  "https://newsapi.org/v2/top-headlines",
-  "https://newsapi.org/v2/everything?q=apple&from=2024-06-18&to=2024-06-18&sortBy=popularity&apiKey=c6d3471a1f854e57865c8f2109d9e2b3",
-  "https://newsapi.org/v2/everything?q=tesla&from=2024-05-19&sortBy=publishedAt&apiKey=c6d3471a1f854e57865c8f2109d9e2b3",
-  "https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=c6d3471a1f854e57865c8f2109d9e2b3",
-  "https://newsapi.org/v2/everything?domains=wsj.com&apiKey=c6d3471a1f854e57865c8f2109d9e2b3"
+  "http://newsapi.org/v2/top-headlines",
+  "http://newsapi.org/v2/everything?q=apple&from=2024-06-18&to=2024-06-18&sortBy=popularity&apiKey=c6d3471a1f854e57865c8f2109d9e2b3",
+  "http://newsapi.org/v2/everything?q=tesla&from=2024-05-19&sortBy=publishedAt&apiKey=c6d3471a1f854e57865c8f2109d9e2b3",
+  "http://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=c6d3471a1f854e57865c8f2109d9e2b3",
+  "http://newsapi.org/v2/everything?domains=wsj.com&apiKey=c6d3471a1f854e57865c8f2109d9e2b3"
 ];
 
 // Action to fetch news articles based on category and page index.
